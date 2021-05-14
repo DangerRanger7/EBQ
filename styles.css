@@ -1,0 +1,131 @@
+/******* LANDING PAGE STYLES *******/
+
+.lb-background {
+  background-color: #ebf4ff;
+}
+
+.db-background {
+  background-color: #0a459e;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: #000000;
+}
+
+/*NAV SECTION*/
+.nav-link {
+  background-color: #2979ec;
+  border-radius: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: bold;
+  width: 327px;
+  height: 71px;
+}
+
+/*HERO SECTION*/
+h1 {
+  font-size: 100px;
+  font-family: "Open Sans", sans-serif;
+
+  font-weight: normal;
+  line-height: 100px;
+}
+span {
+  font-size: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+.hero-txt {
+  text-align: left;
+  /*font: normal normal normal 40px/45px Open Sans;*/
+  letter-spacing: 0px;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 45px;
+}
+
+/*MIDDLE SECTION*/
+.mid-section {
+  padding: 190px 100px 172px 100px;
+  /*margin-top: 190px;
+  margin-bottom: 172px;
+  margin-left: 300px;
+  margin-right: 275px;*/
+
+  /*margin: 25px 50px 75px 100px;
+   top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.
+  */
+}
+
+.row2 {
+  margin-top: 165px;
+}
+
+.img-tools {
+  width: 625px;
+  height: 443px;
+}
+.img-department {
+  max-width: 714px;
+  max-height: 506px;
+}
+
+/*FOOTER*/
+footer {
+  /* top: 2242px;
+  left: 0px;
+  width: 1927px;
+  height: 235px;
+  background: #0a459e 0% 0% no-repeat padding-box;
+  opacity: 1;*/
+
+  top: 2242px;
+  left: 0px;
+  height: 470px;
+  padding-top: 148px;
+}
+
+.footer-txt {
+  /*font: normal normal 600 50px/70px Open Sans, sans-seif;*/
+
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.footer-btn {
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  border-radius: 36px;
+
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: bold;
+  width: 327px;
+  height: 71px;
+  font-family: "Open Sans", sans-serif;
+
+  /* font: normal normal bold 25px/34px Open Sans;*/
+
+  /*
+  top: 2509px;
+  left: 756px;
+  width: 327px;
+  height: 71px;
+  */
+}
+
+.btn-row {
+  margin-top: 53px;
+}
