@@ -23,9 +23,19 @@
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
   line-height: 34px;
-  font-weight: bold;
-  width: 327px;
-  height: 71px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  padding: 18px 40px;
+}
+.nav-link:hover {
+  background-color: #0a459e;
+  color: white;
+  transition: 0.3s;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
 }
 
 /*HERO SECTION*/
@@ -51,11 +61,23 @@ span {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 45px;
+  padding-left: 200px;
+  padding-right: 300px;
+}
+
+.hero {
+  padding-top: 48px;
+  height: 585px;
+}
+.hero-p {
+  padding-top: 55px;
 }
 
 /*MIDDLE SECTION*/
 .mid-section {
-  padding: 190px 100px 172px 100px;
+  /* padding: 190px 100px 172px 100px;*/
+  padding-top: 140px;
+  /*width: 1020px;*/
   /*margin-top: 190px;
   margin-bottom: 172px;
   margin-left: 300px;
@@ -66,13 +88,17 @@ span {
   */
 }
 
+.mid-col {
+  padding: 15px;
+}
+
 .row2 {
   margin-top: 165px;
 }
 
 .img-tools {
-  width: 625px;
-  height: 443px;
+  max-width: 625px;
+  max-height: 443px;
 }
 .img-department {
   max-width: 714px;
@@ -124,6 +150,12 @@ footer {
   width: 327px;
   height: 71px;
   */
+}
+
+.footer-btn:hover {
+  background-color: white;
+  color: #0a459e;
+  transition: 0.3s;
 }
 
 .btn-row {
