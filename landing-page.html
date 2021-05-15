@@ -25,13 +25,10 @@
 			</a>
 			<ul class="nav justify-content-end">
 				<li class="nav-item">
-					<a href="#" class="nav-link white text-center ">SCHEDULE A DEMO</a>
-				</li>
-				
+					<a href="#" class="nav-link white text-center">SCHEDULE A DEMO</a>
+				</li>			
 			</ul>
-		
 		</div>
-
 	</nav>
 
 	<!--Hero Section-->
@@ -61,16 +58,13 @@
 					visibility into the process.</p>
 			</div>
 			<div class="col-lg-6 col-12 mid-col-img col-right">
-			<!-- -->	<img src="./assets/Marketing_Tools.svg" alt="EBQ Marketing Tools" class="img-tools">
+			<!-- -->	<img src="./assets/Marketing_Tools.svg" alt="EBQ Marketing Tools" class="img-tools zoom">
 			</div>
 		</div>
 
 		<div class="row row2">
-			<div class="col-lg-6 col-12 mid-col-img col-left">
-				<img src="./assets/Complete-Department-Marketing.png" alt="EBQ Marketing Department"
-					class="img-department">
-			</div>
-			<div class="col-lg-6 col-12 mid-col-txt col-right">
+			
+			<div class="col-lg-6 col-12 mid-col-txt col-right order-lg-last">
 				<h3>The best way to build a marketing team</h3>
 				<p>With EBQ, you’re not just hiring a marketing specialist. You’re getting an entire marketing
 					department at a fraction of
@@ -81,6 +75,10 @@
 					a Project Manager to oversee day-to-day operations, and one or more Specialists working diligently
 					to amplify your
 					brand.</p>
+			</div>
+
+			<div class="col-lg-6 col-12 mid-col-img col-left order-lg-first">
+				<img src="./assets/Complete-Department-Marketing.png" alt="EBQ Marketing Department" class="img-department zoom">
 			</div>
 
 		</div>
@@ -96,14 +94,88 @@
 			</div>
 			<div class="row btn-row">
 				<div class="col-12 text-center">
-					<button class="white footer-btn" type="button">CONTACT US</button>
+					<button class="white footer-btn" type="button" id="modalbtn">CONTACT US</button>
 				</div>
 			</div>
 		</div>
 	</footer>
 
+		<!--Modal-->
+	<div class="container modal-box modal" id="modal">
+		<span class="close">&times;</span>
+		<div class="row text-center modal-content">
+			<div class="col-12 header">
+				<h2 class="dark-blue">Have A Question?</h2>
+				<p class="pt-2 modal-txt">Connect with a Specialist</p>
+			</div>
+			<div class="col-12 modal-form pt-3">
+				<form action="#" id="form" onsubmit="return(validateForm())">
+					
+					<input type="text" name="firstName" placeholder="First Name"><br/>
+					<input type="text" name="lastName" placeholder="Last Name"><br/>
+					
+					<input type="email" name="email" placeholder="Email"><br/>
+					
+					<textarea placeholder="Message" name="message" id="message" cols="1" rows="1"></textarea>
+					<br/>
+					<input type="submit" value="Let's Connect" class="mt-4 blue-btn">
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<script type="text/javascript">
 			// Event listener JS goes here
+
+			//JS for modal pop up for contact us button
+			let modal = document.getElementById('modal');
+			let modalbtn = document.getElementById('modalbtn');
+			let span = document.getElementsByClassName("close")[0];
+
+			modalbtn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			span.onclick = function(){
+				modal.style.display = "none";
+			}
+
+			window.onclick = function(event){
+				if(event.target == modal){
+					modal.style.display = "none";
+				}
+			}
+
+			//basic validate form inputs
+			function validateForm(){
+
+				//first name
+				if(document.getElementById('form').firstName.value == ''){
+					alert("Please enter a First Name.");
+					document.getElementById('form').firstName.focus();
+					return false;
+				}
+				//last name
+				if(document.getElementById('form').lastName.value == ''){
+					alert("Please enter a Last Name.");
+					document.getElementById('form').lastName.focus();
+					return false;
+				}
+				//email
+				if(document.getElementById('form').email.value == ''){
+					alert("Please enter an Email Address.");
+					document.getElementById('form').email.focus();
+					return false;
+				}
+				//message
+				if(document.getElementById('form').message.value == ''){
+					alert("Please enter a Message.");
+					document.getElementById('form').message.focus();
+					return false;
+				}
+
+			}
+			
 	</script>
 
 </body>
