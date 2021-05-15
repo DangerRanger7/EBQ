@@ -76,7 +76,7 @@ span {
 /*MIDDLE SECTION*/
 .mid-section {
   /* padding: 190px 100px 172px 100px;*/
-  padding-top: 140px;
+  margin-top: 165px;
   /*width: 1020px;*/
   /*margin-top: 190px;
   margin-bottom: 172px;
@@ -88,12 +88,55 @@ span {
   */
 }
 
-.mid-col {
-  padding: 15px;
+.mid-col-txt {
+}
+
+.mid-col-txt h3 {
+  padding: 0% 18% 3% 18%;
+  letter-spacing: 0px;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.mid-col-txt p {
+  padding: 0% 13% 0% 18%;
+  font-size: 28px;
+  text-align: left;
+  line-height: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0px;
+}
+
+.mid-col-img img {
+  padding: 7% 3% 4% 0%;
+}
+
+.row2.col-right h3 {
+  padding: 0% 0% 0% 1%;
+}
+
+/*MID-SECTION SECOND ROW PADDING OF COLUMNS*/
+.mid-col-txt.col-right h3 {
+  padding: 0% 27% 4% 0%;
+}
+.mid-col-txt.col-right p {
+  padding: 0% 31% 1% 0%;
+}
+
+/*.row.row1 {
+    width: 1247px;
+}*/
+.row.row1,
+.row.row2 {
+  padding-left: 130px;
 }
 
 .row2 {
-  margin-top: 165px;
+  margin-top: 10.5%;
+  margin-bottom: 8%;
 }
 
 .img-tools {
@@ -103,6 +146,7 @@ span {
 .img-department {
   max-width: 714px;
   max-height: 506px;
+  padding: 0% 0% 3% 17% !important;
 }
 
 /*FOOTER*/
@@ -122,7 +166,7 @@ footer {
 
 .footer-txt {
   /*font: normal normal 600 50px/70px Open Sans, sans-seif;*/
-
+  margin-top: -1%;
   font-size: 50px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0px;
