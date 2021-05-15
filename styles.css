@@ -83,20 +83,7 @@ span {
 
 /*MIDDLE SECTION*/
 .mid-section {
-  /* padding: 190px 100px 172px 100px;*/
   margin-top: 180px;
-  /*width: 1020px;*/
-  /*margin-top: 190px;
-  margin-bottom: 172px;
-  margin-left: 300px;
-  margin-right: 275px;*/
-
-  /*margin: 25px 50px 75px 100px;
-   top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.
-  */
-}
-
-.mid-col-txt {
 }
 
 .mid-col-txt h3 {
@@ -134,9 +121,6 @@ span {
   padding: 0% 31% 1% 0%;
 }
 
-/*.row.row1 {
-    width: 1247px;
-}*/
 .row.row1,
 .row.row2 {
   padding-left: 130px;
@@ -159,13 +143,6 @@ span {
 
 /*FOOTER*/
 footer {
-  /* top: 2242px;
-  left: 0px;
-  width: 1927px;
-  height: 235px;
-  background: #0a459e 0% 0% no-repeat padding-box;
-  opacity: 1;*/
-
   top: 2242px;
   left: 0px;
   height: 375px;
@@ -193,15 +170,6 @@ footer {
   width: 327px;
   height: 71px;
   font-family: "Open Sans", sans-serif;
-
-  /* font: normal normal bold 25px/34px Open Sans;*/
-
-  /*
-  top: 2509px;
-  left: 756px;
-  width: 327px;
-  height: 71px;
-  */
 }
 
 .footer-btn:hover {
