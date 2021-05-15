@@ -25,12 +25,17 @@
   line-height: 34px;
   font-weight: 600;
   letter-spacing: 0px;
-  padding: 18px 40px;
+  padding: 18px 45px;
 }
 .nav-link:hover {
   background-color: #0a459e;
   color: white;
   transition: 0.3s;
+}
+nav {
+  padding-left: 43px;
+  padding-right: 68px;
+  padding-top: 22px !important;
 }
 
 .logo {
@@ -55,19 +60,22 @@ span {
 
 .hero-txt {
   text-align: left;
-  /*font: normal normal normal 40px/45px Open Sans;*/
   letter-spacing: 0px;
   font-size: 40px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 45px;
-  padding-left: 200px;
-  padding-right: 300px;
+  padding-left: 175px;
+}
+
+.hero-txt p {
+  padding-right: 41.5%;
 }
 
 .hero {
   padding-top: 48px;
-  height: 585px;
+  height: 600px;
+  padding-left: 130px;
 }
 .hero-p {
   padding-top: 55px;
@@ -76,7 +84,7 @@ span {
 /*MIDDLE SECTION*/
 .mid-section {
   /* padding: 190px 100px 172px 100px;*/
-  margin-top: 165px;
+  margin-top: 180px;
   /*width: 1020px;*/
   /*margin-top: 190px;
   margin-bottom: 172px;
@@ -111,7 +119,7 @@ span {
 }
 
 .mid-col-img img {
-  padding: 7% 3% 4% 0%;
+  padding: 7% 2% 4% 0.5%;
 }
 
 .row2.col-right h3 {
@@ -135,8 +143,8 @@ span {
 }
 
 .row2 {
-  margin-top: 10.5%;
-  margin-bottom: 8%;
+  margin-top: 11%;
+  margin-bottom: 7.5%;
 }
 
 .img-tools {
@@ -146,7 +154,7 @@ span {
 .img-department {
   max-width: 714px;
   max-height: 506px;
-  padding: 0% 0% 3% 17% !important;
+  padding: 0% 0% 3% 20% !important;
 }
 
 /*FOOTER*/
@@ -160,7 +168,7 @@ footer {
 
   top: 2242px;
   left: 0px;
-  height: 470px;
+  height: 375px;
   padding-top: 148px;
 }
 
