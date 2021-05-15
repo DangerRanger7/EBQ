@@ -181,3 +181,49 @@ footer {
 .btn-row {
   margin-top: 53px;
 }
+
+/*Tablet View*/
+@media (max-width: 991px) {
+  /*Hero Section*/
+  .hero {
+    padding: 0px 10px 0px 10px;
+  }
+  .hero-txt {
+    padding-left: 0;
+    text-align: center !important;
+  }
+  .hero-txt p {
+    padding-right: 0;
+  }
+
+  /*Mid Section*/
+  .row.row1,
+  .row.row2 {
+    padding-left: 0px;
+  }
+
+  .mid-section {
+    margin-top: 10%;
+  }
+
+  .mid-col-txt,
+  .mid-col-txt p,
+  .mid-col-img {
+    text-align: center;
+  }
+
+  .img-department {
+    padding: 7% 2% 4% 0.5% !important;
+  }
+  .mid-col-txt.col-right h3 {
+    padding: 0% 0% 4% 0%;
+  }
+
+  .mid-col-txt.col-right p {
+    padding: 0% 5% 1% 5%;
+  }
+
+  footer {
+    height: 450px;
+  }
+}
